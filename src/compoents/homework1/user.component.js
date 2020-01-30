@@ -5,10 +5,6 @@ const User = ({datas, match}) => {
 
   const user = datas.find(data => data.id == match.params.id);
 
-  console.log(match.params.id);
-  console.log(datas);
-  console.log(user);
-
   return (
     <div>
       <ul>
